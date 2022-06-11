@@ -15,5 +15,6 @@ RUN cd /home/scoped \
     && git clone --depth=1 https://github.com/uafgeotools/mtuq.git \
     && cd mtuq \
     && pip install -e . \
-    && bash ./data/examples/unpack.bash
+    && bash ./data/examples/unpack.bash\
+    && docker-clean
 
