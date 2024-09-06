@@ -17,4 +17,3 @@ RUN cd /home/scoped \
     && pip install -e . \
     && bash ./data/examples/unpack.bash\
     && docker-clean
-
